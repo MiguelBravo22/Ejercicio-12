@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento de interes en bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="bg-light p-5 mb-4 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="fw-bold display-5">Este es mi Jumbotron</h1>
+                <p class="col-md-8 fs-4">
+                    Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                </p>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Presióname
+                </button>
+
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Éste es mi Modal</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            Texto de prueba del modal (Ejercicio-12)
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container py-4">
+        <form>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                <label for="floatingInput">Nombre</label>
+
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="Teléfono">
+                    <label for="floatingInput">Teléfono</label>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="ensaje" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Mensaje</label>
+                    </div>
+        </form>
+    </div>
+    <hr>
+
+    <div class="container py-4">
+        <div class="card border-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">Mi Información</div>
+            <div class="card-body text-danger">
+            <h5 class="card-title">Miguel Bravo</h5>
+            <p class="card-text">Soy una persona entusiasta, creativa y motivada con una visión clara de cómo lograr mis objetivos. Tengo una capacidad excepcional para desarrollar ideas innovadoras y soluciones creativas a problemas complejos. soy un líder natural con un enfoque en el trabajo en equipo para alcanzar resultados superiores.</p>
+            <div class="card-footer">
+                miguelbravo324@gmail.com
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</html>
